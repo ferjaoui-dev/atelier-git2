@@ -16,6 +16,9 @@ def moyenne(notes):
 def note_max(notes):
     return max(notes)
  
+def note_min(notes):
+    return min(notes)
+
 def mediane(notes):
     tri = sorted(notes)
     n = len(tri)
@@ -25,3 +28,4 @@ notes = [12, 15, 9, 18]
 print("Moyenne :", moyenne(notes))
 print("Note maximale :", note_max(notes))
 print("Médiane :", mediane(notes))
+print("Note minimale :", note_min(notes))
